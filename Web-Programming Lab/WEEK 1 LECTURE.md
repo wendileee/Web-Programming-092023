@@ -10,17 +10,24 @@
 </head>
 
 <body>
+  <main>
 <h1>Week 1 Lecture</h1>
+  <!-- using h1 to highlight "title" -->
 <section>
+  <!-- using section as to seperate parts of the notes -->
 <h2>Github</h2>
+  <!-- using h2 to highlight sub-titles of notes 
+  using <ol><li> to form a numbered list -->
+  
 <ol>
   <li>Git has command line interface - must type git command from command line within repository</li>
-  <li>Staging- process of telling git which changes to file you want to track</li>
+  <li><strong>Staging</strong>- process of telling git which changes to file you want to track</li>
     <ul><li>command= git add --all: to stage all changes</li></ul>
-  <li>Commit- process of telling git to save the current status of changes</li>
+  <li><strong>Commit</strong>- process of telling git to save the current status of changes</li>
     <ul><li>git commit -m "your message"</li></ul>
-  <li>Push- process of telling git to take all commits and save them to remote git repository</li>
+  <li><strong>Push</strong>- process of telling git to take all commits and save them to remote git repository</li>
     <ul><li>git push origin master</li></ul>
+<!-- using in-line styling to partially bold keywords -->
 </ol>
 </section>
 <section>
@@ -36,16 +43,44 @@
           <ul><li>defines how to address and route each packet to make sure it reaches the right destination. </li> </ul>
         <li>Gateway (delivery man for packages)</li>
           <ul><li>Each gateway computer on the network checks this IP address to determine where to forward the message.</li></ul>
-        <li>TCP carries reliable services - email (SMTP, IMAP), web (HTTP).</li>
+        <li style="color:red;">TCP carries reliable services - email (SMTP, IMAP), web (HTTP).</li>
         <li>UDP carries best efforts services - DNS, media streams (RTP).</li>
       </ul>
     <li>Supporting standard application services - DNS, e-mail, web</li>
     <li>Internet regulated by Internet Engineering Task Force (IETF), Internet Corporation for Assigned Names and Numbers (ICANN) Internet Society (ISOC)</li>
   </ul>
+  <!-- using <ul><li> to form bulleted sub points -->
 </section>
 
 <section>
   <h2>Structure of TCP/IP networks</h2>
-  <img src="https://www.notion.so/Lecture-1-80dadefb6e2b45aca4fa3082496700b5?pvs=4#2f58dc8045934aa7b0ce96ad12cf04ab" alt="layer and functionality of tcp/ip networks">
+  <img src="https://f28wp.github.io/material/lectures/images/layers.png" alt="structure of TCP/IP networks">
+  <!-- used the img src attributes to insert image taken from course slide -->
+  <h3>Example of Protocols (Internet Layer)</h3>
+  <ul>
+    <li>Application SMTP, IMAP, HTTP,DNS,RTP,SNMP,TFTP</li>
+    <li>Transport TCP,UDP,SCTP</li>
+    <li>Network IP,ICMP,IPsec,IGMP</li>
+    <li>Link Ethernet,802.11,DSL,ARP,L2TP,ISDN,GPRS,PPP</li>
+  </ul>
 </section>
 
+<section>
+  <h2>World Wide Web</h2>
+  <ul><li>WWW is a global scale- distributed hyper media application with 
+Client Server architecture</li>
+      <li>Resources are transferred using Uniform Resource Identifiers (URI) and HyperText Transfer Protocol (HTTP)</li>
+      <li>WWW clients and browsers (agreed/supported communication standards/software systems)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>HTTP</h2>
+  <p><strong>Hypertext Transfer Protocol</p>
+  <ul><li>is an application-layer protocol for transmitting hypermedia documents, such as HTML</li>
+  <li>designed for communication between web browsers and web servers, but it can also be used for other purposes</li>
+  <li>is a stateless protocol, meaning that the server does not keep any data (state) between two requests.</li></ul>
+</section>
+  </main>
+</body>
+  </html>
