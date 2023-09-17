@@ -76,7 +76,7 @@ Client Server architecture</li>
 
 <section>
   <h2>HTTP</h2>
-  <p><strong>Hypertext Transfer Protocol</p>
+  <p><strong>Hypertext Transfer Protocol</strong></p>
   <ul><li>is an application-layer protocol for transmitting hypermedia documents, such as HTML</li>
   <li>designed for communication between web browsers and web servers, but it can also be used for other purposes</li>
   <li>is a stateless protocol, meaning that the server does not keep any data (state) between two requests.</li></ul>
