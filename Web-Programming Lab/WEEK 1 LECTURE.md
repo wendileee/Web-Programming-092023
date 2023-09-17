@@ -18,7 +18,7 @@
 <h2>Github</h2>
   <!-- using h2 to highlight sub-titles of notes 
   using <ol><li> to form a numbered list -->
-  
+<div>  
 <ol>
   <li>Git has command line interface - must type git command from command line within repository</li>
   <li><strong>Staging</strong>- process of telling git which changes to file you want to track</li>
@@ -29,9 +29,11 @@
     <ul><li>git push origin master</li></ul>
 <!-- using in-line styling to partially bold keywords -->
 </ol>
+</div>
 </section>
 <section>
   <h2>Internet and Web</h2>
+  <div>
   <ul>
     <li>Internet is an inter network of Wide Area Networks with gateways in between</li>
     <li>Agreed upon common standards such as using TCP/IP protocols </li>
@@ -50,6 +52,7 @@
     <li>Internet regulated by Internet Engineering Task Force (IETF), Internet Corporation for Assigned Names and Numbers (ICANN) Internet Society (ISOC)</li>
   </ul>
   <!-- using <ul><li> to form bulleted sub points -->
+  </div>
 </section>
 
 <section>
@@ -57,29 +60,35 @@
   <img src="https://f28wp.github.io/material/lectures/images/layers.png" alt="structure of TCP/IP networks">
   <!-- used the img src attributes to insert image taken from course slide -->
   <h3>Example of Protocols (Internet Layer)</h3>
+  <div>
   <ul>
     <li>Application SMTP, IMAP, HTTP,DNS,RTP,SNMP,TFTP</li>
     <li>Transport TCP,UDP,SCTP</li>
     <li>Network IP,ICMP,IPsec,IGMP</li>
     <li>Link Ethernet,802.11,DSL,ARP,L2TP,ISDN,GPRS,PPP</li>
   </ul>
+  </div>
 </section>
 
 <section>
   <h2>World Wide Web</h2>
+  <div>
   <ul><li>WWW is a global scale- distributed hyper media application with 
 Client Server architecture</li>
       <li>Resources are transferred using Uniform Resource Identifiers (URI) and HyperText Transfer Protocol (HTTP)</li>
       <li>WWW clients and browsers (agreed/supported communication standards/software systems)</li>
   </ul>
+  </div>
 </section>
 
 <section>
   <h2>HTTP</h2>
   <p><strong>Hypertext Transfer Protocol</strong></p>
+  <div>
   <ul><li>is an application-layer protocol for transmitting hypermedia documents, such as HTML</li>
   <li>designed for communication between web browsers and web servers, but it can also be used for other purposes</li>
   <li>is a stateless protocol, meaning that the server does not keep any data (state) between two requests.</li></ul>
+  </div>
 </section>
   </main>
 </body>
