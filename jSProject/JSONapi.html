@@ -13,6 +13,8 @@
           const keys= Object.keys(val);
           //generating new html
           html+= "<div class ='cat'>";
+           //rendering image from data source
+          html += "<img src ='"+val.imageLink+"'"+"alt='"+val.altText+"'>";
           //adding custom html to each key
           keys.forEach(function(key){
             html+="<strong>" + key + "</strong>:" + val[key] + "<br>";
