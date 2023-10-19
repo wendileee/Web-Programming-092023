@@ -2,18 +2,31 @@
   document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('getMessage').onclick = function(){
       // Add your code below this line
-     /* const req = new XMLHttpRequest();
+     const req = new XMLHttpRequest();
       req.open("GET","/json/cats.json",true);
       req.send();
       req.onload=function(){
         const json=JSON.parse(req.responseText);
+        let html = "";
+         json.forEach(function(val){
+          //addng each object keys
+          const keys= Object.keys(val);
+          //generating new html
+          html+= "<div class ='cat'>";
+          //adding custom html to each key
+          keys.forEach(function(key){
+            html+="<strong>" + key + "</strong>:" + val[key] + "<br>";
+          });
+          html+="</div><br>";
+        });
         document.getElementsByClassName("message")[0].innerHTML = JSON.stringify(json);
-      }
-*/  fetch('/json/cats.json')
+      };
+  /*fetch('/json/cats.json')
     .then(response => response.json())
     .then(data =>{
       document.getElementById('message').innerHTML = JSON.stringify(data);
     })
+    */
       // Add your code above this line
     };
   });
